@@ -7,6 +7,7 @@ import Mission from "./components/Mission/Mission";
 import Expertise from "./components/Expertise/Expertise";
 import Review from "./components/Review/Review";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Expertise />
       <Review />
       <Contact />
+      <Footer />
     </main>
   );
 };
