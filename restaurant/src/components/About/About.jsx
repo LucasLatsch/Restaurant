@@ -1,7 +1,7 @@
 import about from "../../assets/about.jpeg";
 import { ABOUT } from "../../constants";
 
-export const About = () => {
+const About = () => {
   return (
     <section className="container mx-auto mb-8" id="about">
       <h2 className="mb-8 text-center text-3xl tracking-tighter lg:text-4xl">
@@ -24,3 +24,5 @@ export const About = () => {
     </section>
   );
 };
+
+export default About;
