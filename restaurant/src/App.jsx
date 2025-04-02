@@ -5,6 +5,7 @@ import Dishes from "./components/Dishes/Dishes";
 import About from "./components/About/About";
 import Mission from "./components/Mission/Mission";
 import Expertise from "./components/Expertise/Expertise";
+import Review from "./components/Review/Review";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <About />
       <Mission />
       <Expertise />
+      <Review />
     </main>
   );
 };
