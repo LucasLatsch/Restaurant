@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
 import Dishes from "./components/Dishes/Dishes";
 import { About } from "./components/About/About";
+import Mission from "./components/Mission/Mission";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <Dishes />
       <About />
+      <Mission />
     </main>
   );
 };
